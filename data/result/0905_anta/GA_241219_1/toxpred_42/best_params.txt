@@ -1,0 +1,10 @@
+Best Parameters:
+n_estimators: 984
+max_depth: 61
+learning_rate: 34.08738897813449
+subsample: 0.6724043082020401
+colsample_bytree: 0.9823866571426787
+gamma: 0.0003199876608404133
+min_child_weight: 5
+reg_alpha: 0.00040109509254976117
+reg_lambda: 0.0001927781318687794

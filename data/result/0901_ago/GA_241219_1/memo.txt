@@ -1,0 +1,1 @@
+w = (-10, 2, 1), date = 241219, num = 1, gen = 1000, pop = 100 IND_INIT_SIZE = 42, CX_PB = 0.5, MUT_PB = 0.2
