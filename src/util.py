@@ -1,4 +1,6 @@
+import os
 import pickle
+from pathlib import Path
 from logging import getLogger, handlers, Formatter, DEBUG
 from scipy.stats import norm
 from sklearn.preprocessing import robust_scale
@@ -30,3 +32,15 @@ def robust_z(x):
     coefficient = norm.ppf(0.75) - norm.ppf(0.25)
     robust_z_score = robust_scale(x)*coefficient
     return robust_z_score
+
+def file_checker(path, overwrite = False):
+    path_obj = Path(path)
+    if path_obj.exists():
+        if overwrite:
+            print(f"{path} is already exists, but OVERWRITE!")
+            return True
+        else:
+            print(f"{path} is already exists!")
+            return False
+    else:
+        return True
