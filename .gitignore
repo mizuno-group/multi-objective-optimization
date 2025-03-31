@@ -1,7 +1,10 @@
 log/
 data/raw/
-data/processed/*/*.pickle
 src/__pycache__/
+
+# too large files
+data/processed/*/*.pickle
+data/processed/toxcast/m5dat.tsv 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
