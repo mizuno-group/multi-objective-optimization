@@ -1,6 +1,8 @@
-import random
-from deap import base, creator, tools, algorithms
 import itertools
+import random
+
+from deap import algorithms, base, creator, tools
+
 
 def not_dup(a, b, list):
     k = 0

@@ -1,9 +1,11 @@
 import os
 import pickle
+from logging import DEBUG, Formatter, getLogger, handlers
 from pathlib import Path
-from logging import getLogger, handlers, Formatter, DEBUG
+
 from scipy.stats import norm
 from sklearn.preprocessing import robust_scale
+
 
 def pickle_dump(obj, path):
     with open(path, mode='wb') as f:

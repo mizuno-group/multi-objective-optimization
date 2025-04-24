@@ -1,17 +1,17 @@
 import os
-import pandas as pd
-from tqdm import tqdm
-from pathlib import Path
-import pubchempy as pcp
-import time
 import random
+import time
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import pubchempy as pcp
 from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem
-import numpy as np
 from scipy.stats import norm
 from sklearn.preprocessing import robust_scale
-
-from util import set_logger, getLogger, file_checker, robust_z
+from tqdm import tqdm
+from util import file_checker, getLogger, robust_z, set_logger
 
 def prep_for_09(test, lig="ago"):
     if test != "07":
