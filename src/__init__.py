@@ -1,17 +1,5 @@
-from prep import prep_for_09
-from prep import prep_for_ga
-from prep import prep_validation
-from prep import prep_pubchem_bycas
-from prep import for_lookup
-from prep import for_lookup_val
-
-from util import pickle_dump
-from util import pickle_load
-from util import robust_z
-from util import set_logger, getLogger
-from util import file_checker
-
-from ga import cxSet
-from ga import not_dup
-from ga import mutSet
-from ga import rand_nodup
+from ga import cxSet, mutSet, not_dup, rand_nodup
+from prep import (for_lookup, for_lookup_val, prep_for_09, prep_for_ga,
+                  prep_pubchem_bycas, prep_validation)
+from util import (file_checker, getLogger, pickle_dump, pickle_load, robust_z,
+                  set_logger)
