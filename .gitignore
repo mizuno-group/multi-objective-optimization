@@ -4,6 +4,10 @@ src/__pycache__/
 
 # too large files
 data/processed/*/*.pickle
+data/processed/*/cas_sev.tsv
+data/processed/*/cas_not_in_whole.tsv
+data/processed/*/validation.tsv
+data/processed/*/for_GA.tsv
 data/processed/toxcast/m5dat.tsv
 
 # Byte-compiled / optimized / DLL files

@@ -1,0 +1,10 @@
+Metric,Group1,Group2,Cohen's d,t-test p-value,Mann-Whitney U p-value,KS p-value,Significant?
+mse,GA,Random,1.899,1.325e-24,1.121e-26,3.055e-31,Yes
+mse,GA,Pareto,-3.479,2.541e-51,6.982e-27,4.650e-42,Yes
+mse,Random,Pareto,-17.447,2.580e-112,9.301e-29,1.279e-49,Yes
+mae,GA,Random,1.899,2.788e-25,3.194e-25,1.419e-28,Yes
+mae,GA,Pareto,-3.702,1.482e-54,2.599e-27,2.303e-43,Yes
+mae,Random,Pareto,-14.803,1.558e-130,9.301e-29,1.279e-49,Yes
+r2,GA,Random,0.041,7.725e-01,9.637e-02,4.117e-04,Yes
+r2,GA,Pareto,0.309,2.045e-02,1.919e-09,1.735e-14,Yes
+r2,Random,Pareto,0.142,2.800e-01,1.085e-05,1.356e-16,Yes
