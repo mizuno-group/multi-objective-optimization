@@ -1,0 +1,2 @@
+Metric,Group1,Group2,Cohen's d,t-test p-value,Mann-Whitney U p-value,KS p-value,Significant (p < 0.05)?
+precision,Random,GA-optimized (Pareto),-0.338,9.760e-02,1.134e-01,2.611e-01,No
