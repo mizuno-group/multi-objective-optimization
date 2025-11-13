@@ -1,0 +1,4 @@
+Metric,Group1,Group2,Cohen's d,t-test p-value,Mann-Whitney U p-value,KS p-value,Significant (p < 0.05)?
+accuracy,Random,Intermediate (Non-Pareto),0.557,3.963e-03,3.014e-03,5.844e-03,Yes
+accuracy,Random,GA-optimized (Pareto),1.426,2.373e-11,5.374e-10,2.369e-09,Yes
+accuracy,Intermediate (Non-Pareto),GA-optimized (Pareto),0.529,6.421e-03,1.384e-02,2.024e-02,Yes

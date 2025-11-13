@@ -1,0 +1,4 @@
+Metric,Group1,Group2,Cohen's d,t-test p-value,Mann-Whitney U p-value,KS p-value,Significant (p < 0.05)?
+auc,Random,Intermediate (Non-Pareto),0.980,6.364e-07,1.471e-06,7.874e-05,Yes
+auc,Random,GA-optimized (Pareto),2.302,4.973e-20,3.913e-15,2.560e-19,Yes
+auc,Intermediate (Non-Pareto),GA-optimized (Pareto),0.949,2.378e-06,4.828e-06,6.147e-08,Yes
