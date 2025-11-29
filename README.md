@@ -1,4 +1,4 @@
-# Genetic Algorithm for Toxicity Prediction
+# Multi-Objective Optimization of Reference Compound Lists for Rigorous Evaluation of Predictive Toxicity Models
 
 This repository optimizes a set of compounds using a genetic algorithm. Furthermore, we curate a dataset of compounds used in pharmaceutical safety test validation studies by JaCVAM and compare them with the compounds derived from the genetic algorithm.
 
