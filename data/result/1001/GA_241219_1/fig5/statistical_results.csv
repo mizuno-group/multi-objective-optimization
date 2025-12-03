@@ -1,0 +1,16 @@
+Metric,Group1,Group2,Cohen's d,t-test p-value,Mann-Whitney U p-value,KS p-value,Significant?
+accuracy,GA,Random,-0.378,8.116e-03,2.678e-03,3.638e-02,Yes
+accuracy,GA,Pareto,0.606,4.152e-05,4.640e-04,9.094e-04,Yes
+accuracy,Random,Pareto,1.050,1.472e-11,1.761e-10,1.897e-08,Yes
+precision,GA,Random,-0.424,3.038e-03,1.208e-03,1.558e-02,Yes
+precision,GA,Pareto,1.334,4.992e-17,7.685e-13,6.341e-16,Yes
+precision,Random,Pareto,1.883,3.094e-27,3.964e-18,4.622e-25,Yes
+recall,GA,Random,-0.241,8.972e-02,1.097e-01,1.548e-01,No
+recall,GA,Pareto,1.325,2.036e-14,8.045e-12,1.836e-12,Yes
+recall,Random,Pareto,1.751,1.094e-19,1.059e-16,9.447e-21,Yes
+f1,GA,Random,-0.480,8.272e-04,3.229e-04,3.729e-03,Yes
+f1,GA,Pareto,1.603,1.810e-19,1.355e-14,1.594e-15,Yes
+f1,Random,Pareto,2.234,4.214e-29,1.916e-20,1.090e-26,Yes
+auc,GA,Random,-0.091,5.196e-01,4.379e-01,5.830e-01,No
+auc,GA,Pareto,0.722,5.454e-07,4.224e-06,2.928e-08,Yes
+auc,Random,Pareto,0.787,4.663e-08,4.072e-07,4.878e-10,Yes
